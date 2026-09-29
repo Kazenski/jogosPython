@@ -1,8 +1,6 @@
 import time
 
-# -------------------------------------------------------------------------
 # --- FUNÇÕES DO JOGO ---
-# -------------------------------------------------------------------------
 
 
 def exibir_cabecalho():
@@ -61,9 +59,7 @@ def exibir_placar(p1, p2):
     print("-" * 40)
 
 
-# -------------------------------------------------------------------------
 # --- FUNÇÃO PRINCIPAL (MOTOR DO JOGO) ---
-# -------------------------------------------------------------------------
 
 def iniciar_jogo():
     """Controla o laço principal (WHILE) e chama as outras funções na ordem certa."""
@@ -108,9 +104,7 @@ def iniciar_jogo():
     print("=" * 40)
 
 
-# -------------------------------------------------------------------------
 # --- EXECUÇÃO DO SCRIPT ---
-# -------------------------------------------------------------------------
 # Boa prática em Python: garante que o jogo só rode se o arquivo for executado diretamente
 if __name__ == "__main__":
     iniciar_jogo()
